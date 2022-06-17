@@ -45,3 +45,24 @@ The `cd` command changes the directory you're working with. In order to work wit
 The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
 
 Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+
+# Testing equations
+
+This equation $a+b=c$ works.
+
+| Description | Equation |
+| --- | ----------- |
+| This equation works | $a+b=c$ |
+
+<table>
+  <thead>
+    <th>Description</th>
+    <th>Equation</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>This equation does NOT work</td>
+      <td>$a+b=c$</td>
+    </tr>
+  </tbody>
+</table>
